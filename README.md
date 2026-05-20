@@ -1,25 +1,20 @@
-# GitRepoAnalyzer CLI
+# GitRepoAnalyzer-CLI
 
-A Python CLI tool to analyze GitHub repositories for health metrics.
+A Python CLI tool to analyze GitHub repositories for stale branches, outdated dependencies, and security issues.
 
 ## Goal
-Scan GitHub repos for stale branches, outdated dependencies, and generate health reports.
+Scan repositories and report findings.
 
 ## Acceptance Criteria
-1. Accept a GitHub repo URL.
-2. Fetch repo data via GitHub API.
-3. Identify stale branches.
-4. Identify outdated dependencies.
-5. Output formatted rich terminal table.
-6. Support dry-run and JSON export.
+1. CLI entry point runs successfully via `python -m git_repo_analyzer`.
+2. Parses repository URL argument.
+3. Parses output format argument.
+4. Parses dry-run mode flag.
+5. Contains placeholder functions for scanning stale branches, outdated dependencies, and security issues.
+6. Project structure is valid and runnable.
 
 ## Installation
-pip install click rich pyyaml jsonschema
+pip install click
 
 ## Usage
-git-repo-analyzer https://github.com/user/repo --dry-run
-
-## Project Status
-- Status: Active
-- Meetings Held: 0
-- Meeting Budget: 5
+python -m git_repo_analyzer analyze https://github.com/example/repo --output json --dry-run

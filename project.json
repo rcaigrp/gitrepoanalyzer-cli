@@ -1,1 +1,14 @@
-{"goal": "Build a Python CLI tool named GitRepoAnalyzer CLI. Analyze GitHub repositories for stale branches, outdated dependencies, and security issues. Output a formatted report.", "acceptance_criteria": ["Accept a GitHub repo URL as input.", "Fetch repo data using GitHub API.", "Identify stale branches (no commits in 30 days).", "Identify outdated dependencies (requirements.txt, package.json).", "Output a formatted rich terminal table of findings.", "Support dry-run mode and export to JSON."], "meeting_budget": 5, "meetings_held": 0, "status": "active"}
+{
+  "goal": "Build a Python CLI tool named GitRepoAnalyzer CLI to scan GitHub repos for stale branches, outdated dependencies, and security issues.",
+  "acceptance_criteria": [
+    "CLI entry point runs successfully via python -m git_repo_analyzer",
+    "Parses repository URL argument",
+    "Parses output format argument",
+    "Parses dry-run mode flag",
+    "Contains placeholder functions for scanning stale branches, outdated dependencies, and security issues",
+    "Project structure is valid and runnable"
+  ],
+  "meeting_budget": 5,
+  "meetings_held": 0,
+  "status": "active"
+}
