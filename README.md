@@ -10,7 +10,7 @@ Scan repositories and report findings.
 2. Parses repository URL argument.
 3. Parses output format argument.
 4. Parses dry-run mode flag.
-5. Contains placeholder functions for scanning stale branches, outdated dependencies, and security issues.
+5. Contains placeholder functions for scanning scanning stale branches, outdated dependencies, and security issues.
 6. Project structure is valid and runnable.
 
 ## Installation
