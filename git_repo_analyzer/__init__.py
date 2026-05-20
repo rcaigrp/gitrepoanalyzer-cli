@@ -1,1 +1,1 @@
-# GitRepoAnalyzer CLI
+# GitRepoAnalyzer Package
