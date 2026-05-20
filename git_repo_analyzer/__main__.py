@@ -1,4 +1,4 @@
-from cli import cli
+from git_repo_analyzer.cli import analyze
 
 if __name__ == '__main__':
-    cli()
+    analyze()
